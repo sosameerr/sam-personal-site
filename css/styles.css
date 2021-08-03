@@ -1,0 +1,187 @@
+/*************************************************CSS TAGS************************************************************/
+  h1{
+    color: #364547;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; /*100%=16px & 1em=16px & (rem means ignore other font sizes take only this one frm the root)*/
+    margin: 50px auto 0 auto;            /*top,right,bottom,left*/
+    }
+
+  h2{
+      color: #293B5F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /*that's 40px*/
+    font-weight: normal; /*to get rid of the bolding and de-emphasize it*/
+    padding-bottom: 10px;
+  }
+
+  h3{
+    color: #005A8D;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  p{
+      line-height: 2;
+  }
+
+  hr{
+      border: dotted #687980 6px;
+      border-bottom: none;
+      width: 5%; /* used % to keeo it responsive*/
+      margin: 100px auto;
+  }
+
+  a{
+    color: #DDDDDD;
+      font-family: 'Montserrat', sans-serif;
+      margin: 8px 15px; /* top and bottom & left and right*/
+      text-decoration: none;
+  }
+
+  body{
+      color: #40514E;
+    margin: 0;
+    text-align: center;
+font-family: 'Merriweather', serif;
+  }
+
+  a{
+    color: #151965;
+  }
+
+  a:hover{
+    color: white;
+  }
+
+
+/*************************************************CLASS TAGS************************************************************/
+  .top-container{
+    background-color: #87a7b3;
+    position: relative;
+    padding-top: 100px;
+  }
+
+  .middle-container{
+    margin: 100px 0; /*100px for top and bottom and 0 for left and right*/
+
+  }
+
+
+    .bottom-container{
+     background-color: #87a7b3;
+     padding: 50px 0 20px; /*up left and right bottom*/
+    }
+
+    .intro{
+      width: 30%;
+      margin: auto;
+    }
+
+    .skill-row{
+      width: 50%;
+      margin: 100px auto 100px auto;
+      text-align: left;
+    }
+
+   .bottom-cloud{
+     position: absolute;
+     left: 250px;
+     bottom:300px;
+   }
+
+  .top-cloud{
+    position:absolute;
+   right:300px;
+    top:40px;
+  }
+
+  .web-dev{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    clear: left;
+  }
+
+.web-designing{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  clear: right;
+}
+
+.ui-ux{
+ width: 25%;
+ float: left;
+ margin-right: 30px;
+}
+
+.speaking{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px; /* take a look at mdn docs for 'margin'*/
+}
+
+.btn {
+   background: #125D98;
+   background-image: -webkit-linear-gradient(top, #125D98, #11999E);
+   background-image: -moz-linear-gradient(top, #125D98, #11999E);
+   background-image: -ms-linear-gradient(top, #125D98, #11999E);
+   background-image: -o-linear-gradient(top, #125D98, #11999E);
+   background-image: -webkit-gradient(to bottom, #125D98, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 12px;
+   -webkit-box-shadow: 1px 1px 1px 0 #000000;
+   -moz-box-shadow: 1px 1px 1px 0 #000000;
+   box-shadow: 1px 1px 5px 0 #000000;
+   text-shadow: 1px 1px 5px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.btn:hover{
+background: #30E3CB;
+background-image: -webkit-linear-gradient(top,#30E3CB, #2BC4AD);
+background-image: -moz-linear-gradient(top,#30E3CB, #2BC4AD);
+background-image: -ms-linear-gradient(top,#30E3CB, #2BC4AD);
+background-image: -o-linear-gradient(top,#30E3CB, #2BC4AD);
+background-image:linear-gradient(to bottom, #30E3CB, #2BC4AD);
+text-decoration: none;
+}
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn:active {                        /*reference from w3 schools for adding the clicking affect to the button*/
+  background-color: #30E3CB;
+  box-shadow: 0 5px #B2AB8C;
+  transform: translateY(4px);
+}
